@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src='js/jquery-2.0.3.min.js' type='text/javascript'></script>
+    <script src='bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
+    <script src='js/main_page.js' type='text/javascript'></script>
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel='stylesheet' href='bootstrap/css/bootstrap.css'/>
+    <link rel='stylesheet' href='bootstrap/css/bootstrap-theme.css'/>
+    <link rel="stylesheet" href="css/general-styles.css"/>
+    <link rel="stylesheet" href="css/main-page.css"/>
+
+    <!--TODO make Favicon -->
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+    <title>TA-Pack | Service</title>
+</head>
+<body>
+<!--Form Containers-->
+    <nav class="navbar navbar-default">
+        <div class="container">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand active" href="index.html">TA-Pack</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="framework.html">Framework</a></li>
+                    <li><a href="delievery.html">Contacts</a></li>
+                    <li><a href="delievery.html">Support</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="about.html">About Project</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+            </div>
+    </nav>
+</div>
+
+<!-- content -->
+<div class="main-content drop-shadow">
+        <div class="col-md-3 main-content" style=" background-color: #c0c0c0">
+            <h2 class="text-center">Logo</h2>
+        </div>
+    <!--Personal Badges-->
+        <div class="col-md-6">
+            <div class="" style="border-bottom: 1px solid #000">
+            <p class="text-center padding-small" >Dedicated Test team will provide complete solution including tests themselves.
+                <br/>We also provide support and continues integration</p>
+            </div>
+            <div class="clearfix"></div>
+            <div class="versions-container">
+                <div class="version-container text-center">
+                    <div class="version-circle">
+                        <div class="circle-text text-center">SOAP/REST
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="version-text">
+                        Team will provide you with UI + SOAP/REST automated test
+                    </div>
+                </div>
+            </div>
+                <div class="version-container-main text-center">
+                    <div class="version-circle-main">
+                        <div class="circle-text-main text-center">WEB
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="version-text">
+                        Team will provide you with UI automated tests
+                    </div>
+                </div>
+                <div class="version-container text-center">
+                    <div class="version-circle">
+                        <div class="circle-text text-center">Mobile
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="version-text">
+                        Team will provide you with UI + SOAP/REST + Mobile automated test
+                    </div>
+                </div>
+            <div class="clearfix"></div>
+            </div>
+    <!--End of Personal Badges-->
+    <!--Funny Badges-->
+        <div class="col-md-3 main-content" style=" background-color: #c0c0c0">
+            <h2 class="text-center">General Info</h2>
+        </div>
+    <!--End of Funny Badges-->
+    <div class="clearfix"></div>
+
+<div>
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-8">
+        <div class="main-text-container">
+
+            <h3 class="text-center">Fill in the form to start automation testing for your product!</h3>
+            <p class="text-center">You may request demo while filling the form!</p>
+            <div class="btn-centered">
+                <button type="button" class="btn btn-success btn-lg" id="openForm">Start!</button>
+            </div>
+            <div class="clearfix"></div>
+            <div class="text-center">
+                <a href="#">How is this working?</a>
+            </div>
+            <div class="clearfix"></div>
+
+        </div>
+    </div>
+    <div class="col-md-2">
+
+    </div>
+        </div>
+    </div>
+
+<div class="form-container" id="formSubmit">
+    <div class="form-body">
+        <div style="float: right; cursor: pointer" id="closeForm">
+            <span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </div>
+        <div class="clearfix"></div>
+        <h4>Start Automation Testing of Your Product</h4>
+
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="inputFName" class="col-sm-3 control-label">First Name</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inputFName" placeholder="First Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputLName" class="col-sm-3 control-label">Last Name</label>
+                <div class="col-sm-9">
+                    <input type="password" class="form-control" id="inputLName" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputMail" class="col-sm-3 control-label">E-Mail</label>
+                <div class="col-sm-9">
+                    <input type="email" class="form-control" id="inputMail" placeholder="E-Mail">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputContact" class="col-sm-3 control-label">Other Contact</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inputContact" placeholder="Skype,etc">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Automation Level</label>
+                <div class="col-sm-9">
+                    <select class="form-control">
+                        <option>Basic</option>
+                        <option>Extended</option>
+                        <option>Premium</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox">Request Demo
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
