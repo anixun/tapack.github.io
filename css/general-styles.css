@@ -10,3 +10,12 @@
 .bordered-right{
     border-right: 1px solid #303030;
 }
+.margin-bt-small{
+    margin-bottom: 12px;
+}
+.margin-top-small{
+     margin-top: 12px;
+}
+.margin-top-xs{
+    margin-top: 6px;
+}
