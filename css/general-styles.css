@@ -26,12 +26,12 @@
     margin-left: 85px;
 }
 .text-darken{
-    color: #202020;
-    text-shadow: 0 3px 0 rgba(255, 255, 255, 0.74);
+    color: #393939;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.63);
 
 }
 .text-darken:hover{
-    color: #ffffff;
+    color: #2a2a2a;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.63);
     text-decoration: none;
-    text-shadow: 0 3px 0 rgba(33, 33, 33, 0.53);
 }
