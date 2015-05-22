@@ -28,6 +28,9 @@
 .margin-left-lg{
     margin-left: 85px;
 }
+.margin-left-m{
+    margin-left: 30px;
+}
 .text-darken{
     color: #393939;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.63);
@@ -47,11 +50,8 @@
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.63);
     text-decoration: none;
 }
-.btn-main{
-    border-radius: 20px;
-    box-shadow: 0 0 20px 0 #000000;
-    background-color: rgba(0, 0, 0, 0);
-    color: #393939;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.63);
-    border: 2px solid #ffffff;
-    }
+.description-text{
+    font-size: 17px;
+    line-height: 26px;
+    color: #000;
+}

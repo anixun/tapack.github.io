@@ -3,7 +3,6 @@
 <head>
     <script src='js/jquery-2.0.3.min.js' type='text/javascript'></script>
     <script src='bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
-    <script src='js/main_page.js' type='text/javascript'></script>
 
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -38,13 +37,13 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="laboratory.html">Laboratory</a></li>
-                    <li><a href="care.html">Care</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="#lab">Laboratory</a></li>
+                    <li><a href="#care">Care</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
 
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="about.html">About Project</a></li>
+                    <li><a href="#about">About Service</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -68,36 +67,38 @@
 
     <div class="col-md-12 main-text text-darken">
         <div class="main-text-container">
-            <h4>We do everything for you to participate only in the development process. Providing quality assurance to us will allow you not to keep dedicated
-                Automation QA Engineers or Software Engineers in Test, as we offer complex solution for quality assurance in automatic mode. <strong>Support is provided as service </strong></h4>
+            <p class="description-text">We do everything for you to participate only in the development process.</p>
+            <p class="description-text">Providing quality assurance to us will allow you not to keep dedicated
+                Automation QA Engineers or Software Engineers in Test, as we offer complex solution for quality assurance in automatic mode.</p>
+            <p class="description-text"><strong>Support is provided as service </strong></p>
             <div class="clearfix"></div>
-            <h3 class="text-center">Start automation testing of your product now!    <button type="button" class="btn btn-lg margin-left-small btn-success" style="border-radius: 20px" data-toggle="modal" data-target="#formModal"><strong>Automate!</strong></button></h3>
+            <h3 class="text-center">Start automation testing of your product now!
+                <button type="button" class="btn btn-lg margin-left-small btn-success" style="border-radius: 20px" data-toggle="modal" data-target="#formModal"><strong>Automate!</strong></button></h3>
             <h4 class="text-center"> <strong>You may request demo while filling the form!</strong></h4>
 
             <div class="clearfix"></div>
             <div class="text-center">
-               <h4><a href="#" class="text-darken"><strong>How is this working?</strong></a></h4>
+               <h4><a href="#how" class="text-darken"><strong>How is this working?</strong></a></h4>
             </div>
         </div>
     </div>
-</div>
 
-<div class="text-center container margin-top-l">
+<div class="text-center  margin-top-l">
     <div class="col-md-4">
         <div class="clearfix"></div>
-        <a href="framework.html" class="anchor-links">
+        <a href="#capabilities" class="anchor-links">
                     <h1>Capabilities</h1>
         </a>
     </div>
 <div class="col-md-4">
-    <a href="laboratory.html" class="anchor-links">
+    <a href="#lab" class="anchor-links">
         <div class="clearfix"></div>
 
         <h1>Laboratory</h1>
     </a>
 </div>
 <div class="col-md-4">
-    <a href="care.html" class="anchor-links">
+    <a href="#care" class="anchor-links">
         <div class="clearfix"></div>
 
         <h1>Care</h1>
@@ -105,6 +106,37 @@
     </a>
 </div>
 </div>
+    <div class="clearfix"></div>
+    <div class="col-md-12">
+        <h1 id="capabilities" class="anchor-links">Capabilities</h1>
+
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-md-12">
+        <h1 id="lab" class="anchor-links">Laboraroty</h1>
+
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-md-12">
+        <h1 id="care" class="anchor-links">Care</h1>
+
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-md-12">
+        <h1 id="contacts" class="anchor-links">Contacts</h1>
+        <p class="description-text"><span class="glyphicon glyphicon-envelope padding-small"></span>testautopack@gmail.com</p>
+        <img src="img/skype.png" style="width: 24px; float: left" class="margin-left-small"/><p class="description-text">&nbsp tapack-service</p>
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-md-12">
+    <h1 id="how" class="anchor-links">How does it work?</h1>
+
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-md-12">
+        <h1 id="about" class="anchor-links">About Service</h1>
+
+    </div>
 <div class="clearfix"></div>
 <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -168,6 +200,6 @@
         </div>
     </div>
 </div>
-
+</div>
 </body>
 </html>

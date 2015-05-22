@@ -15,54 +15,6 @@
 .main-content{
     margin-top: 42px;
 }
-.main-text-container{
-}
-.btn-centered {
-    width: 80px;
-    margin: auto;
-}
-.main-forms{
-    height: 146px;
-    margin: auto;
-}
-.bg-light-gray {
-    border-radius: 3px;
-    background-image: -webkit-gradient(linear, left 0%, left 100%, from(rgba(223, 219, 224, 0.75)), to(rgba(167, 163, 168, 0.75)));
-    background-image: -webkit-linear-gradient(top, rgba(223, 219, 224, 0.75), 0%, rgba(167, 163, 168, 0.75), 100%);
-    background-image: -moz-linear-gradient(top, rgba(223, 219, 224, 0.75) 0%, rgba(167, 163, 168, 0.75) 100%);
-    background-image: linear-gradient(to bottom, rgba(223, 219, 224, 0.75) 0%, rgba(167, 163, 168, 0.75) 100%);
-}
-.bg-light-gray:hover{
-    border-radius: 3px;
-    background-image: -webkit-gradient(linear, left 0%, left 100%, from(rgba(167, 163, 168, 0.75)), to(#736f74));
-    background-image: -webkit-linear-gradient(top, rgba(167, 163, 168, 0.75), 0%, rgba(167, 163, 168, 0.75), 100%);
-    background-image: -moz-linear-gradient(top, rgba(167, 163, 168, 0.75) 0%, rgba(167, 163, 168, 0.75) 100%);
-    background-image: linear-gradient(to bottom, rgba(167, 163, 168, 0.75) 0%, rgba(167, 163, 168, 0.75) 100%);
-}
-.bg-main-forms{
-    height: 240px;
-    color: #000000;
-    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
-}
-.bg-flask{
-    background-image: url("");
-    width: 100%;
-    height: 92%;
-    background-size: cover;
-    background-position: center center;
-}
-.bg-gear{
-    background-image: url("");
-    width: 100%;
-    height: 92%;
-    background-size: cover;
-    background-position: center center;
-}
-.main-forms img{
-    position: absolute;
-    height: 100%;
-    margin: auto;
-}
 .bg-img{
     background-image: url("../img/asdf.jpg");
     position: fixed;
@@ -70,7 +22,4 @@
     height: 100%;
     background-size: cover;
     background-position: center center;
-}
-.text-accent{
-
 }
