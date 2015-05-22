@@ -48,10 +48,10 @@
     text-decoration: none;
 }
 .btn-main{
-    border-radius: 3px;
+    border-radius: 20px;
     box-shadow: 0 0 20px 0 #000000;
     background-color: rgba(0, 0, 0, 0);
     color: #393939;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.63);
-    border: 5px solid #ffffff;
+    border: 2px solid #ffffff;
     }
