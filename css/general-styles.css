@@ -27,6 +27,8 @@
 }
 .text-darken{
     color: #202020;
+    text-shadow: 0 3px 0 rgba(255, 255, 255, 0.74);
+
 }
 .text-darken:hover{
     color: #ffffff;
