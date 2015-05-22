@@ -4490,12 +4490,12 @@ table{
 }
 
 .navbar-inverse .navbar-brand {
-  color: #242424;
+  color: #525252;
 }
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #ffffff;
+  color: #000000;
   background-color: transparent;
 }
 
@@ -4504,12 +4504,12 @@ table{
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #242424;
+  color: #525252;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #ffffff;
+  color: #000000;
   background-color: transparent;
 }
 

@@ -16,6 +16,9 @@
 .margin-top-small{
      margin-top: 12px;
 }
+.margin-top-l{
+    margin-top: 42px;
+}
 .margin-top-xs{
     margin-top: 6px;
 }
@@ -35,3 +38,20 @@
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.63);
     text-decoration: none;
 }
+.anchor-links{
+    color: #000000;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.63);
+}
+.anchor-links:hover{
+    color: #2a2a2a;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.63);
+    text-decoration: none;
+}
+.btn-main{
+    border-radius: 3px;
+    box-shadow: 0 0 20px 0 #000000;
+    background-color: rgba(0, 0, 0, 0);
+    color: #393939;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.63);
+    border: 5px solid #ffffff;
+    }
