@@ -4013,7 +4013,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   z-index: 1000;
   min-height: 50px;
-  border: 1px solid transparent;
 }
 
 .navbar:before,
@@ -4487,12 +4486,11 @@ table{
 }
 
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #080808;
+  background-color: rgba(34, 34, 34, 0);
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #242424;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -4506,7 +4504,7 @@ table{
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  color: #242424;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,

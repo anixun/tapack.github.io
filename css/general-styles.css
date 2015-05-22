@@ -25,3 +25,11 @@
 .margin-left-lg{
     margin-left: 85px;
 }
+.text-darken{
+    color: #202020;
+}
+.text-darken:hover{
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 0 3px 0 rgba(33, 33, 33, 0.53);
+}
