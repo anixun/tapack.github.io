@@ -55,3 +55,36 @@
     line-height: 26px;
     color: #000;
 }
+.btn-main{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    font-size: 35px;
+    box-shadow: 0 0 20px 0 #000000;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.63);
+    border: 3px solid #ffffff;
+    cursor: default;
+    float: left;
+}
+.btn-main:hover,.btn-main:active{
+    color: #ffffff;
+    cursor: default;
+}
+.workflow-text{
+    width: 150px;
+    margin-top:50px
+}
+.workflow-arrows{
+    font-size: 26px;
+    color: #ffffff;
+    margin-top: 65px;
+    margin-left: 24px;
+}
+.workflow-block{
+    float: left;
+    padding: 12px;
+    width: 230px;
+    height: 200px;
+}

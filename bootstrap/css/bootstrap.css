@@ -279,6 +279,7 @@ table {
   }
   .table {
     border-collapse: collapse !important;
+      background-color: #f9f9f9;
   }
   .table-bordered th,
   .table-bordered td {
@@ -1417,6 +1418,7 @@ th {
   line-height: 1.428571429;
   vertical-align: top;
   border-top: 1px solid #dddddd;
+  background-color: #f9f9f9;
 }
 
 .table thead > tr > th {
